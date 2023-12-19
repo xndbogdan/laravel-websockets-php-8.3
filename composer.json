@@ -34,10 +34,10 @@
         "clue/block-react": "^1.5",
         "clue/reactphp-sqlite": "^1.0",
         "clue/redis-react": "^2.6",
-        "doctrine/dbal": "^2.9",
+        "doctrine/dbal": "^2.9 | ^3.0 | ^4.0",
         "evenement/evenement": "^2.0|^3.0",
         "facade/ignition-contracts": "^1.0",
-        "guzzlehttp/psr7": "^1.5",
+        "guzzlehttp/psr7": "^2.6",
         "illuminate/broadcasting": "^9.0 | ^10.0",
         "illuminate/console": "^9.0 | ^10.0",
         "illuminate/http": "^9.0 | ^10.0",
@@ -48,13 +48,13 @@
         "react/mysql": "^0.5",
         "react/promise": "^2.8",
         "symfony/http-kernel": "^5.0|^6.0",
-        "symfony/psr-http-message-bridge": "^1.1|^2.0"
+        "symfony/psr-http-message-bridge": "*"
     },
     "require-dev": {
         "clue/buzz-react": "^2.9",
         "laravel/legacy-factories": "^1.1",
         "orchestra/testbench-browser-kit": "^7.0",
-        "phpunit/phpunit": "^9.0",
+        "phpunit/phpunit": "^9.0 | ^10.0",
         "ratchet/pawl": "^0.3.5"
     },
     "suggest": {
